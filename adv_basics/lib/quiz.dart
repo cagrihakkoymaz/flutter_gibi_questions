@@ -45,7 +45,7 @@ void chooseAnswer(String answer) {
 
 
     if (activeScreen == 'results-screen') {
-      screenWidget = const ResulstScreen();
+      screenWidget =  ResulstScreen(choosenAnswers: selectedAnswers,);
     }         
 
 

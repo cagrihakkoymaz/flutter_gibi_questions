@@ -24,7 +24,7 @@ class StartScreen extends StatelessWidget {
            Text(
             'Kimsenin hiçbir şey bilmediği yer',
             style: GoogleFonts.lato(
-              fontSize: 40,
+              fontSize: 25,
               fontWeight: FontWeight.bold,
               color: Color.fromRGBO(196, 192, 192, 1),
             ),

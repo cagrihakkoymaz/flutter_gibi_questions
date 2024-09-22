@@ -2,6 +2,7 @@ import 'package:adv_basics/data/questions.dart';
 import 'package:flutter/material.dart';
 import 'package:adv_basics/questions_summary/questions_summary.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter/services.dart'; // Import for SystemNavigator
 
 class ResulstScreen extends StatelessWidget {
   const ResulstScreen({super.key,
@@ -66,6 +67,16 @@ class ResulstScreen extends StatelessWidget {
                 style:TextButton.styleFrom(foregroundColor: Colors.white,),
                 icon:const Icon(Icons.refresh),
                 label:const Text('Restart Quiz'),
+              ),
+                          const SizedBox(height: 20), // Space between buttons
+
+                TextButton.icon(
+              onPressed: () {
+                SystemNavigator.pop(); // Close the app
+              },
+                style:TextButton.styleFrom(foregroundColor: Colors.white,),
+                icon:const Icon(Icons.close),
+                label:const Text('Uygulmayı Kapat'),
               )
             ],
           ),

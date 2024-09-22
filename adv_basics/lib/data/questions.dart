@@ -8,7 +8,7 @@ const questions = [
       'kuki',
       'aslan',
       'ilkkan',
-    ],'assets/images/gibi_photo_1.png'
+    ],'assets/images/gibi_picts/gibi21.jpg'
     
   ),
 
@@ -20,7 +20,7 @@ const questions = [
       'Zombieing',
       'Breadcrumbing ',
       'Submarining',
-    ],'assets/images/gibi_photo_1.png'
+    ],'assets/images/gibi_picts/gibi15.jpg'
   ),
 
     QuizQuestion(
@@ -30,7 +30,7 @@ const questions = [
       'kokoreççi',
       'kahveci',
       'zücaciyeci',
-    ],'assets/images/gibi_photo_1.png'
+    ],'assets/images/gibi_picts/gibi10.jpg'
   ),
 
         QuizQuestion(
@@ -40,7 +40,7 @@ const questions = [
       'sevişmek',
       'okumak',
       'borçlanmak',
-    ],'assets/images/gibi_photo_1.png'
+    ],'assets/images/gibi_picts/gibi6.jpg'
   ),
         QuizQuestion(
     'İlkkanın bir diğer batılı özelliği olan yemek alerjisi hangi besine karşıdır?',
@@ -49,26 +49,26 @@ const questions = [
       'süt',
       'soya',
       'balık',
-    ],'assets/images/quiz-logo.png'
+    ],'assets/images/gibi_picts/gibi4.jpg'
   ),
       QuizQuestion(
     'Yahşı günde hatırlanmayan gardaşlara ihyiyaçın hasıl olduğu gün çeşidi?',
     [
       'yaman',
-      'kötu',
+      'kötü',
       'kara',
       'soğuk',
-    ],'assets/images/quiz-logo.png'
+    ],'assets/images/gibi_picts/gibi3.jpg'
   ),
 
     QuizQuestion(
     'Gerçeklerin ötesine geçerek kıymetini yitirmesini sağlayan ve yaşamın ta kendisi haline gelen olgu?',
     [
       'genel kanı',
-      'otoroti',
+      'otorote',
       'toplumsal ahlak',
       'mahalle baskısı',
-    ],'assets/images/quiz-logo.png'
+    ],'assets/images/gibi_picts/gibi2.jpg'
   ),
     QuizQuestion(
     'İlkkanın dönemsel olarak agresifleşerek benzetildiği hayvan ?',
@@ -77,7 +77,7 @@ const questions = [
       'sibirya kaplanı',
       'kafkasya leoparı',
       'alman kurdu',
-    ],'assets/images/quiz-logo.png'
+    ],'assets/images/gibi_picts/gibi25.jpg'
   ),
 
 
